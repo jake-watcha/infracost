@@ -96,21 +96,22 @@ require (
 
 require (
 	github.com/alecthomas/jsonschema v0.0.0-20211209230136-e2b41affa5c1
+	github.com/fatih/camelcase v1.0.0
 	github.com/go-git/go-billy/v5 v5.4.0
 	github.com/go-git/go-git/v5 v5.4.3-0.20220529141257-bc1f419cebcf
 	github.com/google/go-github/v41 v41.0.0
 	github.com/gruntwork-io/terragrunt v0.36.9
 	github.com/hashicorp/go-retryablehttp v0.7.2
 	github.com/hashicorp/go-terraform-address v0.0.0-20210506203813-2cc4f0f34da8
-	github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+	github.com/hashicorp/terraform-svchost v0.1.0
 	github.com/maruel/panicparse/v2 v2.3.1
 	github.com/pkg/browser v0.0.0-20201207095918-0426ae3fba23
 	github.com/pterm/pterm v0.12.50
 	github.com/shurcooL/githubv4 v0.0.0-20220115235240-a14260e6f8a2
 	github.com/shurcooL/graphql v0.0.0-20200928012149-18c5c3165e3a
-	github.com/tidwall/sjson v1.2.5
+	github.com/soongo/path-to-regexp v1.6.4
 	github.com/withfig/autocomplete-tools/packages/cobra v1.2.0
-	golang.org/x/oauth2 v0.1.0
+	golang.org/x/oauth2 v0.4.0
 )
 
 require (
@@ -145,7 +146,6 @@ require (
 	github.com/dimchansky/utfbom v1.1.1 // indirect
 	github.com/dlclark/regexp2 v1.8.1 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
-	github.com/fatih/camelcase v1.0.0 // indirect
 	github.com/frankban/quicktest v1.11.3 // indirect
 	github.com/go-errors/errors v1.0.2-0.20180813162953-d98b870cc4e0 // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
@@ -176,7 +176,6 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect
-	github.com/soongo/path-to-regexp v1.6.4 // indirect
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
 	github.com/urfave/cli v1.22.3 // indirect
 	github.com/xanzy/ssh-agent v0.3.1 // indirect
