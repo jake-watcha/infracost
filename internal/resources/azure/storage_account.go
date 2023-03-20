@@ -160,7 +160,7 @@ func (r *StorageAccount) buildProductFilter(meterName string) *schema.ProductFil
 		}[r.AccountTier]
 	}
 
-	skuName := fmt.Sprintf("%s %s", r.AccessTier, r.AccountReplicationType)
+	skuName := fmt.Sprintf("%s %s", strings.Title(r.AccessTier), strings.ToUpper(r.AccountReplicationType))
 
 	return &schema.ProductFilter{
 		VendorName:    strPtr("azure"),
@@ -1031,7 +1031,7 @@ func (r *StorageAccount) isReplicationTypeSupported() bool {
 	}
 
 	if validReplicationTypes != nil {
-		return contains(validReplicationTypes, r.AccountReplicationType)
+		return contains(validReplicationTypes, strings.ToUpper(r.AccountReplicationType))
 	}
 
 	return true

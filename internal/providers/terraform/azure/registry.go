@@ -131,6 +131,7 @@ var ResourceRegistry []*schema.RegistryItem = []*schema.RegistryItem{
 	getMonitorDiagnosticSettingRegistryItem(),
 	getMonitorScheduledQueryRulesAlertRegistryItem(),
 	getMonitorScheduledQueryRulesAlertV2RegistryItem(),
+	getStorageQueueRegistryItem(),
 }
 
 // FreeResources grouped alphabetically
